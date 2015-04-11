@@ -48,7 +48,7 @@ public class DigFrame extends JFrame {
 							die=true;
 							dispose();
 							clip.close();
-							JOptionPane.showMessageDialog(getParent(),new ImageIcon(".//Graphics//pikachew.jpg"));
+							JOptionPane.showMessageDialog(getParent(),"Run out lives, plz start over");
 							
 							break;
 						}
